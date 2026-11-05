@@ -6,11 +6,12 @@
       rgba(46, 47, 66, 0.7) 0%,
       rgba(46, 47, 66, 0.7) 100%
     ),
-    url(/images/hero-bg.jpg);
+    url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   max-width: 1440px;
   margin: 0 auto;
+  background-size: cover;
 }
 .hero-title {
   font-weight: 700;

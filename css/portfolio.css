@@ -58,6 +58,6 @@
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
-.gallery-item:hover .overlay {
+.team-shadow:hover .overlay {
   transform: translateY(0);
 }
