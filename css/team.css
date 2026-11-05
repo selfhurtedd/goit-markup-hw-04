@@ -1,0 +1,37 @@
+.team-title-2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+.team-title-3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+.team-text {
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.post-team {
+  background-color: #f4f4fd;
+}
+.team-cards {
+  gap: 24px;
+  display: flex;
+}
+.team-text-block {
+  padding: 32px 16px;
+}
+.team-border {
+  background-color: #fff;
+  border-radius: 0 0 4px 4px;
+}
