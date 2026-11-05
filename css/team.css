@@ -1,4 +1,4 @@
-.team-title-2 {
+.team-title-big {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
@@ -7,7 +7,7 @@
   color: #2e2f42;
   margin-bottom: 72px;
 }
-.team-title-3 {
+.team-title-small {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -29,9 +29,37 @@
   display: flex;
 }
 .team-text-block {
-  padding: 32px 16px;
+  padding-top: 32px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .team-border {
   background-color: #fff;
   border-radius: 0 0 4px 4px;
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+.social-icon {
+  display: flex;
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  background: #4d5ae5;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-icons {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 32px;
+}
+.social-icon:hover {
+  background-color: #404bbf;
 }
